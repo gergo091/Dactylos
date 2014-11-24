@@ -1,0 +1,14 @@
+Project->Properties
+
+C/C++ -> Additional Include Directories-> FANN-2.2.0-Source\src\include
+	
+Linker->General-> Additional Library Directories-> FANN-2.2.0-Source\bin
+
+Linker->Input-> Additional Dependencies->fanndouble.lib
+	                                       fannfixed.lib
+	                                       fannfloat.lib
+
+	                                       fanndoubled.lib
+		                                     fannfixedd.lib
+		                                     fannfloatd.lib
+Copy all .dll files from FANN-2.2.0-Source\bin to your project
